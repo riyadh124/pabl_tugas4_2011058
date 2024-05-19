@@ -1,0 +1,26 @@
+name: pabl_tugas_4_2011058
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.2.4 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.9.0
+  xml: ^6.5.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.8.0
+
+flutter:
+  assets:
+    - myassets/
+
+  uses-material-design: true
